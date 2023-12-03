@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css" />
+    <title>Random Quotes Generator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sub-main">
+            <h1>Quote of the Day</h1>
+            <div class="quote-sec">
+                <blockquote>
+                    <span><img class="dbl" src="./Images/leftQ.svg" /></span>
+                    <span id="quotes">
+                        The only way to do great work is to love what you do.
+                    </span>
+                    <span><img class="dbl" src="./Images/rightQ.svg" /></span>
+                </blockquote>
+                <i id="writerName">- Steve Jobs</i>
+                <hr />
+            </div>
+            <div class="btn">
+                <button class="btn-s"><img src="./Images/audio.svg" /></button>
+                <button class="btn-s"><img src="./Images/copied.svg" /></button>
+                <button class="btn-s"><img src="./Images/twitter.svg" /></button>
+                <button class="btn-l" onclick="generateQuote()">New Quote</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./Data.js"></script>
+<script src="./Script.js"></script>
+
+</html>
